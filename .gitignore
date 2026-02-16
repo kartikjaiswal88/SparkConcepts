@@ -1,0 +1,52 @@
+# --- Build directories ---
+/target/
+build/
+
+# --- IDE files ---
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# --- VSCode files ---
+.vscode/
+
+# --- Logs ---
+*.log
+
+# --- OS generated files (Windows) ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Environment & secrets ---
+.env
+*.properties
+
+# --- Maven / Gradle ---
+/.mvn/
+!**/src/main/**/application.properties
+!**/src/main/**/application.yml
+pom.xml
+.gradle/
+build.gradle
+gradle.properties
+
+# --- Spark / Hadoop temp files ---
+.metastore_db/
+derby.log
+
+# --- Scala specific ---
+project/target/
+project/project/
+
+.idea
+.bsp
+
+# --- Java compiled classes ---
+*.class
+
+# --- Other ---
+*.bak
+*.tmp
+
