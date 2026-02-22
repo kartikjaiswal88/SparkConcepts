@@ -8,4 +8,6 @@ object SparkObject {
     .master("local[*]") // Use all available cores
     .getOrCreate()
 
+  SparkObject.localSpark.sparkContext.setLogLevel("ERROR")
+
 }
