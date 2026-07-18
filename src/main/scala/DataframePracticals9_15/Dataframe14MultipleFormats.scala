@@ -7,6 +7,12 @@ import scala.collection.mutable.ListBuffer
 import java.util.Comparator
 import scala.io.StdIn
 
+/*
+   1. Spark Submit
+      sbt clean package && spark-submit --class DataframePracticals9_15.Dataframe14MultipleFormats --master local[*] target\scala-2.13\sparkconcepts_2.13-0.1.0-SNAPSHOT.jar
+
+ */
+
 object Dataframe14MultipleFormats {
 
   val localSpark: SparkSession = SparkSession.builder().appName("DfMultiFormatsConverter").master("local[*]").getOrCreate()
